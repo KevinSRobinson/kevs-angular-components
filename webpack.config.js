@@ -11,7 +11,7 @@ module.exports = {
 		examples: './examples.js',
 	},
 	output: {
-		publicPath: '/public/assets/',
+		publicPath: '/public/',
 		filename: "[name].js"
 	},
 	devServer: {
