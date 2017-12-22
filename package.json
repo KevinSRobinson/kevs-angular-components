@@ -8,7 +8,7 @@
   },
   "author": "Joe Eames",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.1.18",
@@ -25,9 +25,7 @@
     "sass-loader": "^1.0.2",
     "style-loader": "^0.12.4",
     "url-loader": "^0.6.2",
-    "webpack": "^3.8.1"
-  },
-  "dependencies": {
+    "webpack": "^3.8.1" , 
     "angular": "^1.5.9",
     "angular-animate": "^1.5.9",
     "angular-auth0": "^2.0.0",
@@ -46,6 +44,7 @@
     "ng-fab-form": "^1.2.20",
     "ng-showdown": "^1.1.0",
     "showdown": "^1.8.0",
-    "ui-select": "^0.19.8"
+    "ui-select": "^0.19.8",
+    "webpack-dev-server": "^2.9.7"
   }
 }
